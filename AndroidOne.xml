@@ -24,6 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio" remote="AndroidOne" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="AndroidOne" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -41,6 +42,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AndroidOne" />
 
   <!-- packages -->
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="AndroidOne" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="AndroidOne" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="AndroidOne" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="AndroidOne" />
