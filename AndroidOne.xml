@@ -56,6 +56,7 @@
 
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="AndroidOne" />
+  <project path="vendor/certification" name="vendor_certification" remote="AndroidOne" />
   <project path="vendor/gms" name="vendor_gms" remote="AndroidOne" clone-depth="1" />
 
 </manifest>
