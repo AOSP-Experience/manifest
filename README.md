@@ -9,7 +9,7 @@ This guide walks you through setting up, syncing, building, and customizing your
 First, initialize your repo with the AndroidOne manifest:
 
 ```bash
-repo init -u https://github.com/AndroidOne-Experience/manifest.git -b 15 --depth=1 --git-lfs
+repo init -u https://github.com/AndroidOne-Experience/manifest.git -b 15-miatoll --depth=1 --git-lfs
 ```
 
 ---

@@ -40,7 +40,7 @@
   <!-- frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="AndroidOne" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="AndroidOne" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AndroidOne" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" revision="15-miatoll" remote="AndroidOne" />
 
   <!-- packages -->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="AndroidOne" />
@@ -61,5 +61,11 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="AndroidOne" />
   <project path="vendor/certification" name="vendor_certification" remote="AndroidOne" />
   <project path="vendor/gms" name="vendor_gms" remote="AndroidOne" clone-depth="1" />
+  <project path="vendor/priv-keys" name="vendor_priv-keys" revision="master" remote="AndroidOne" />
+
+  <!-- miatoll -->
+  <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="AndroidOne" />
+  <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="AndroidOne" clone-depth="1" />
+  <project path="kernel/xiaomi/sm6250" name="kernel_xiaomi_sm6250" remote="AndroidOne" clone-depth="1" />
 
 </manifest>
