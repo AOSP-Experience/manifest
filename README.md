@@ -64,7 +64,7 @@ You can customize your ROM build by including the following flags in your **devi
 | Flag | Value |
 |------|-------|
 | `TARGET_SUPPORT_MINIMAL_GAPPS`    | `true`  |
-| `TARGET_HAS_GEMENI_BOOTANIMATION` | `true` |
+| `TARGET_HAS_GEMINI_BOOTANIMATION` | `true` |
 | `TARGET_BOOT_ANIMATION_RES`       | `720` |
 | `TARGET_SUPPORT_LIVE_WALLPAPER`   | `false` |
 | `GMS_VOICE_MODEL_INCLUDED`        | `false` |
@@ -74,7 +74,7 @@ You can customize your ROM build by including the following flags in your **devi
 | Flag | Description |
 |------|-------------|
 | `TARGET_SUPPORT_MINIMAL_GAPPS`    | Set to `true` to include **Minimal GMS package** in the ROM build. Ideal for users who want basic Google services without the full bloat of standard GApps. |
-| `TARGET_HAS_GEMENI_BOOTANIMATION` | Enables the new Gemini Google bootanimation. Add this in the device tree to use it. **Default is White Google bootanimation**. |
+| `TARGET_HAS_GEMINI_BOOTANIMATION` | Enables the new Gemini Google bootanimation. Add this in the device tree to use it. **Default is White Google bootanimation**. |
 | `TARGET_BOOT_ANIMATION_RES` | Use this if your device has a 720p screen. Helps set appropriate boot animation resolution. **Default is White Google bootanimation**. |
 | `TARGET_SUPPORT_LIVE_WALLPAPER` | Set to `false` to **exclude** Pixel 3XL live wallpapers from the build. reducing OTA zip size by ~167MB. |
 | `GMS_VOICE_MODEL_INCLUDED` | Set to `false` to **exclude** prebuilt voice models, reducing OTA zip size by ~100MB. |
