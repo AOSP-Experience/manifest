@@ -43,6 +43,9 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" revision="15-miatoll" remote="AndroidOne" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="AndroidOne" />
 
+  <!-- hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="AndroidOne" />
+
   <!-- packages -->
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="AndroidOne" />
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="AndroidOne" />
@@ -57,6 +60,7 @@
 
   <!-- system -->
   <project path="system/core" name="system_core" groups="pdk" remote="AndroidOne" />
+  <project path="system/media" name="system_media" groups="pdk" remote="AndroidOne" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="AndroidOne" />
 
   <!-- vendor -->
