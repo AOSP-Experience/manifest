@@ -64,6 +64,7 @@ You can customize your ROM build by including the following flags in your **devi
 | Flag | Value |
 |------|-------|
 | `TARGET_SUPPORT_MINIMAL_GAPPS`    | `true`  |
+| `TARGET_SUPPORT_PIXEL_LAUNCHER` | `true` |
 | `TARGET_HAS_GEMINI_BOOTANIMATION` | `true` |
 | `TARGET_BOOT_ANIMATION_RES`       | `720` |
 | `TARGET_SUPPORT_LIVE_WALLPAPER`   | `false` |
@@ -74,6 +75,7 @@ You can customize your ROM build by including the following flags in your **devi
 | Flag | Description |
 |------|-------------|
 | `TARGET_SUPPORT_MINIMAL_GAPPS`    | Set to `true` to include **Minimal GMS package** in the ROM build. Ideal for users who want basic Google services without the full bloat of standard GApps. |
+| `TARGET_SUPPORT_PIXEL_LAUNCHER` | Set to `true` to include the **Pixel Launcher** in the ROM build. This provides the Google Pixel home screen experience with features such as **At-a-Glance, Google Discover integration, and the Pixel-style app drawer**. **Default is `false`**, which means the ROM will use the **Launcher3QuickStep** instead. |
 | `TARGET_HAS_GEMINI_BOOTANIMATION` | Enables the new Gemini Google bootanimation. Add this in the device tree to use it. **Default is White Google bootanimation**. |
 | `TARGET_BOOT_ANIMATION_RES` | Use this if your device has a 720p screen. Helps set appropriate boot animation resolution. **Default is White Google bootanimation**. |
 | `TARGET_SUPPORT_LIVE_WALLPAPER` | Set to `false` to **exclude** Pixel 3XL live wallpapers from the build. reducing OTA zip size by ~167MB. |
