@@ -40,7 +40,6 @@
 <project path="hardware/google/camera" name="android_hardware_google_camera" groups="pdk" remote="LineageOS" />
 <project path="hardware/google/pixel" name="android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="LineageOS" />
 <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="LineageOS" />
-<project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="LineageOS" />
 <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="LineageOS" />
 <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="LineageOS" />
 <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="LineageOS" />
