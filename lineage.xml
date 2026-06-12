@@ -31,6 +31,7 @@
 <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk,sysui-studio" remote="LineageOS" />
 <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="LineageOS" />
 <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="LineageOS" />
+<project path="external/v4l2_codec2" name="android_external_v4l2_codec2" groups="pdk" remote="LineageOS" />
 <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
 <project path="external/zstd" name="android_external_zstd" remote="LineageOS" />
 
