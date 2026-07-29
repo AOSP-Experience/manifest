@@ -25,9 +25,11 @@
 <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="LineageOS" />
 <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="LineageOS" />
 <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="LineageOS" />
+<project path="external/libpng" name="android_external_libpng" groups="pdk" remote="LineageOS" />
 <project path="external/libjxl" name="android_external_libjxl" groups="pdk" remote="LineageOS" />
 <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="LineageOS" />
 <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk,sysui-studio" remote="LineageOS" />
+<project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="LineageOS" />
 <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="LineageOS" />
 <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="LineageOS" />
 <project path="external/zstd" name="android_external_zstd" remote="LineageOS" />
@@ -51,9 +53,11 @@
 
 <!-- PACKAGES/APPS -->
 <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
+<project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="LineageOS" />
 <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
 <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="LineageOS" />
+<project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" remote="LineageOS" />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="LineageOS" />
 <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="LineageOS" />
 <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="LineageOS" />
