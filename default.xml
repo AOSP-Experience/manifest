@@ -1043,10 +1043,10 @@
   <!-- END open-source projects -->
 
   <!-- Track our own forks -->
-  <include name="remove.xml" />
-  <include name="lineage.xml" />
-  <include name="hardware.xml" />
-  <include name="androidone.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/hardware.xml" />
+  <include name="snippets/aosexperience.xml" />
   <!-- Track our own forks -->
 
 </manifest>

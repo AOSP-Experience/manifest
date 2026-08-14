@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="AOSP-Experience"
+           fetch="https://github.com/AOSP-Experience"
+           revision="refs/heads/16-QPR2" />
+
+<!-- BIONIC -->
+<project path="bionic" name="bionic" groups="pdk" remote="AOSP-Experience" />
+
+<!-- BUILD -->
+<project path="build/make" name="build" groups="pdk,sysui-studio" remote="AOSP-Experience" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+</project>
+<project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="AOSP-Experience" />
+<project path="build/release" name="build_release" groups="pdk,tradefed,sysui-studio" remote="AOSP-Experience" />
+
+<!-- BOOTABLE -->
+<project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="AOSP-Experience" />
+
+<!-- DEVICE -->
+<project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="AOSP-Experience" />
+
+<!-- EXTERNAL -->
+<project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="AOSP-Experience" />
+
+<!-- FRAMEWORKS -->
+<project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="AOSP-Experience" />
+<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="AOSP-Experience" />
+<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AOSP-Experience" />
+<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk,sysui-studio" remote="AOSP-Experience" />
+
+<!-- HARDWARE -->
+<project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="AOSP-Experience" />
+
+<!-- PACKAGES/APPS -->
+<project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="AOSP-Experience" />
+<project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="AOSP-Experience" />
+<project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="AOSP-Experience" />
+<project path="packages/apps/Updater" name="packages_apps_Updater" remote="AOSP-Experience" />
+
+<!-- PACKAGES/MODULES -->
+<project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="AOSP-Experience" />
+<project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="AOSP-Experience" />
+
+<!-- PACKAGES/SERVICE -->
+<project path="packages/services/Iwlan" name="packages_services_Iwlan" groups="pdk-cw-fs,pdk-fs" remote="AOSP-Experience" />
+<project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="AOSP-Experience" />
+
+<!-- SYSTEM -->
+<project path="system/core" name="system_core" groups="pdk" remote="AOSP-Experience" />
+<project path="system/netd" name="system_netd" groups="pdk" remote="AOSP-Experience" />
+<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="AOSP-Experience" />
+<project path="system/update_engine" name="system_update_engine" groups="pdk" remote="AOSP-Experience" />
+
+<!-- VENDOR -->
+<project path="vendor/aosp" name="vendor_aosp" remote="AOSP-Experience" />
+<project path="vendor/gms" name="vendor_gms" remote="AOSP-Experience" clone-depth="1" />
+
+<!-- MISC -->
+<project path="tools/extract-utils" name="tools_extract-utils" remote="AOSP-Experience" />
+
+</manifest>
