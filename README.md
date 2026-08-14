@@ -9,7 +9,7 @@ This guide walks you through setting up, syncing, building, and customizing your
 First, initialize your repo with the AndroidOne manifest:
 
 ```bash
-repo init -u https://github.com/AndroidOne-Experience/manifest.git -b 16-QPR2 --depth=1 --git-lfs
+repo init -u https://github.com/AOSP-Experience/manifest.git -b 16-QPR2 --depth=1 --git-lfs
 ```
 
 ---
@@ -19,7 +19,7 @@ repo init -u https://github.com/AndroidOne-Experience/manifest.git -b 16-QPR2 --
 Now sync the source code. This step may take some time depending on your internet connection and CPU:
 
 ```bash
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
 ---
@@ -37,7 +37,7 @@ source build/envsetup.sh
 ## 📱 Choose a Target Device
 
 ```bash
-lunch aosp_<device>-bp1a-user
+lunch aosp_<device>-bp4a-user
 ```
 > Replace `<device>` with your actual device codename.
 
